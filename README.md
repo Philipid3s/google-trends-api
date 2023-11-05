@@ -6,6 +6,9 @@ node server.js
 ```
 
 ## access api
+```
+http://localhost:3000/api/google-trends-realtime/FR/b
+```
 you can access the API with URLs like /api/google-trends-realtime/US/b, where US and b are the countryCode and category parameters, respectively. The values of these parameters are extracted from the URL and used in the API request.
 
 **Google Trends categories:**
